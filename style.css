@@ -632,15 +632,15 @@ gap: 3px;
 }
 @media only screen and (max-width:470px) {
     body{
-        /* overflow-x: visible; */
+        overflow-x: visible;
         object-fit: cover;
     }
     .navbar-expand{
-        width: 120%;
+        width: 130%;
         padding: 20px 10px;
         /* padding-right: 30px; */
     }
    .parrent-container{
-    width: 130%;
+    width: 140%;
    }
 }
