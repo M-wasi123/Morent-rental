@@ -643,4 +643,7 @@ gap: 3px;
    .parrent-container{
     width: 140%;
    }
+   .time{
+    margin-top: 15px;
+   }
 }
