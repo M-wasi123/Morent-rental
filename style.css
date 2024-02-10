@@ -90,7 +90,7 @@ border-radius: 20px;
 }
 .dott{
     width: 10px;
-    height: 10px;
+    height: 9px;
     border-radius: 50%;
     background-color: red;
     position: absolute;
@@ -265,12 +265,12 @@ margin-top: 10px;
     margin-left: -5px;
     font-size: 70%;
     color: var(--text-color);
-    
+    width: 100%;
 }
 
 .p-2{
     font-size: small;
- 
+ color: black;
 }
 .cars-page{
     display: flex;
@@ -598,6 +598,7 @@ gap: 3px;
     }
     .fluid{
         justify-content: space-between;
+        
     }
     .navbar-brand{
         font-size: medium;
@@ -605,7 +606,8 @@ gap: 3px;
     }
     .search-bar{
         width: 40%;
-        padding: 10px 5px;
+        padding: 7px 5px;
+        align-items:normal;
     }
     .form-controll{
         width: 100%;
@@ -628,8 +630,17 @@ gap: 3px;
         
     }
 }
-@media only screen and (max-width:500px) {
-   .navbar-expand{
-    width: 100%;
+@media only screen and (max-width:470px) {
+    body{
+        overflow-x: visible;
+        object-fit: cover;
+    }
+    .navbar-expand{
+        width: 120%;
+        padding: 20px 10px;
+        /* padding-right: 30px; */
+    }
+   .parrent-container{
+    width: 130%;
    }
 }
