@@ -646,4 +646,7 @@ gap: 3px;
    .time{
     margin-top: 20px;
    }
+   .copywrite{
+    justify-content: center;
+   }
 }
