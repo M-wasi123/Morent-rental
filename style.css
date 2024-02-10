@@ -647,6 +647,6 @@ gap: 3px;
     margin-top: 20px;
    }
    .copywrite{
-    justify-content: center;
+    align-items: center;
    }
 }
