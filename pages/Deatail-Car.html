@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <div class="main-body">
+  
   <!-- this section is navbar -->
   <nav class="navbar-expand"> 
     <div class="fluid">
-      <a class="navbar-brand" href="./pages/home.html">MORENT</a>
+      <a class="navbar-brand" href="./home.html">MORENT</a>
       
 <div class="search-bar">
 
@@ -30,19 +30,19 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <button class="heart">
-            <a class="fa-heat" href="./pages/catagory.html"><i class="fa fa-heart"></i></a>
+            <a class="fa-heat" href="./catagory.html"><i class="fa fa-heart"></i></a>
             </button>
 </li>
           <li class="nav-item">
             
               <button class="bell">
-              <a class="fa-heat" href="./pages/Deatail-Car.html"><i class="fa fa-bell"></i></a>
+              <a class="fa-heat" href="./Deatail-Car.html"><i class="fa fa-bell"></i></a>
               <span class="dott"></span>
               </button></a>
           </li>
           <li class="nav-item ">
             <button class="gear">
-              <a class="fa-heat" href="./pages/payment-car-rent.html"><i class="fa fa-gear" style="font-size: large;" ></i></a>
+              <a class="fa-heat" href="./payment-car-rent.html"><i class="fa fa-gear" style="font-size: large;" ></i></a>
               
               </button>
           </li>
@@ -59,59 +59,60 @@
     </div>
   </nav>
       <div class="body-parent">
-      <div class="side-pannel">
+        <div class="side-pannel">
+          <div class="type">
+          <p class="p-">TYPE</p>
+          <div>
+          <input type="checkbox" name="" id="sport">
+          <label for="sport">Sport <span class="gray">(10)</span></label>
+        </div>
+        <div>
+          <input type="checkbox" name="" id="suv">
+          <label for="suv">SUV <span class="gray">(12)</span></label>
+        </div>
+        <div>
+          <input type="checkbox" name="" id="mpv">
+          <label for="mpv">MPV <span class="gray">(16)</span></label>
+        </div>
+        <div>
+          <input type="checkbox" name="" id="sedan">
+          <label for="sedan">Sedan <span class="gray">(20)</span></label>
+        </div>
+        <div>
+          <input type="checkbox" name="" id="coupe">
+          <label for="coupe">Coupe <span class="gray">(14)</span></label>
+        </div>
+        <div>
+          <input type="checkbox" name="" id="Hatchback">
+          <label for="Hatchback">Hatchback <span class="gray">(14)</span></label>
+        </div> 
+      </div>  
         <div class="type">
-        <p class="p-1-5">TYPE</p>
+          <p class="p-">CAPACITY</p>
+          <div>
+          <input type="checkbox" name="" id="2">
+          <label for="2">2 Person <span class="gray">(10)</span></label>
+        </div>
         <div>
-        <input type="checkbox" name="" id="sport">
-        <label for="sport">Sport <span class="gray">(10)</span></label>
-      </div>
-      <div>
-        <input type="checkbox" name="" id="suv">
-        <label for="suv">SUV <span class="gray">(12)</span></label>
-      </div>
-      <div>
-        <input type="checkbox" name="" id="mpv">
-        <label for="mpv">MPV <span class="gray">(16)</span></label>
-      </div>
-      <div>
-        <input type="checkbox" name="" id="sedan">
-        <label for="sedan">Sedan <span class="gray">(20)</span></label>
-      </div>
-      <div>
-        <input type="checkbox" name="" id="coupe">
-        <label for="coupe">Coupe <span class="gray">(14)</span></label>
-      </div>
-      <div>
-        <input type="checkbox" name="" id="Hatchback">
-        <label for="Hatchback">Hatchback <span class="gray">(14)</span></label>
-      </div> 
-    </div>  
-      <div class="type">
-        <p class="p-1-5">CAPACITY</p>
+          <input type="checkbox" name="" id="4">
+          <label for="4">4 Person <span class="gray">(14)</span></label>
+        </div>
         <div>
-        <input type="checkbox" name="" id="2">
-        <label for="2">2 Person <span class="gray">(10)</span></label>
+          <input type="checkbox" name="" id="6">
+          <label for="6">6 Person <span class="gray">(12)</span></label>
+        </div>
+        <div>
+          <input type="checkbox" name="" id="8">
+          <label for="8">8 or More <span class="gray">(16)</span></label>
+        </div>
       </div>
-      <div>
-        <input type="checkbox" name="" id="4">
-        <label for="4">4 Person <span class="gray">(14)</span></label>
-      </div>
-      <div>
-        <input type="checkbox" name="" id="6">
-        <label for="6">6 Person <span class="gray">(12)</span></label>
-      </div>
-      <div>
-        <input type="checkbox" name="" id="8">
-        <label for="8">8 or More <span class="gray">(16)</span></label>
-      </div>
-      <div class="price">
-        <p class="p-1-5">PRICE</p>
-        <input style="width: 180px;" type="range" name="" id="">
-        <p class="p-1-6">Max. $100.00</p>
-      </div>
-      </div>    
-      </div>
+        <div class="type">
+          <p class="p-">PRICE</p>
+          <input style="width: 100%;" type="range" name="" id="">
+          <p class="p-1-6">Max. $100.00</p>
+        </div>
+        </div>    
+       
       <div class="parrent-container"> 
         <!-- this section is car rating           -->
        <div class="rating">
@@ -133,9 +134,10 @@
         </div>
       </div>
         <div class="car-rating">
-          <h3>Nissan GT-R
-          <i class="fa fa-heart" style="color: rgb(240, 11, 11); margin-left: 125px; font-size: x-large;align-items: center;"></i>
-        </h3>
+          <div class="rate">
+          <h3>Nissan GT-R</h3>
+          <i class="fa fa-heart" style="color: rgb(240, 11, 11);font-size: x-large;align-items: center;"></i>
+        </div>    
         
 <span class="fa fa-star " style="color: orange;"></span>
 <span class="fa fa-star " style="color: orange;"></span>
@@ -156,9 +158,12 @@
           <div class="Sports-1">70L</div>
         </div>
         <div class="rent-now-1">
+          <div>
           <h5 class="card-text">$80.00/<span class="day">day</span> </h5>
-          <a href="#" class="btn btn-primary-1">Rent Now</a>
           <del class="delt">$100.00</del>
+        </div>
+          <a href="./payment.html" class="btn btn-primary">Rent Now</a>
+          
         </div>
       </div>
       
@@ -227,143 +232,239 @@
   <p class="p-1">Recent Car</p>
   <a class="anchor-1" class="foter-link" href="">View All</a>
   </div>
-<div class="cards-page">
-<div class="car-cards">
-  <div class="card" >
-    <h5 class="h-1-1">Nissan GT-R <span><i class="fa fa-heart" style="color: rgb(236, 234, 234); margin-left:70px;"></i></span></h5>
-    <p class="p-1-1">Sport</p>
-    <img class="card-img-top" src="./Car4.png" alt="Card image">
-    <div class="card-body">
-      <div class="card-icon">
-      <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">80L</span> </i>
-      <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
-      <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
-        <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
-        <span class="p-1-2">2 People</span> </i>
+  <div class="cards-page">
+    <div class="car-cards">
+      <div class="card" >
+        <div class="flex">
+        <h5 class="h-1-1">Koenigsegg </h5>
+        <i class="fa fa-heart" style="color: rgb(214, 27, 27);"></i>
+      </div>
+        <p class="p-1-1">Sport</p>
+        <img class="card-img-top" src="./car.png" alt="Card image">
+        <div class="card-body">
+          <div class="card-icon">
+          <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">90L</span> </i>
+          <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
+          <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
+            <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
+            <span class="p-1-2">2 People</span> </i>
+        </div>
+        <div class="rent-now">
+          <h5 class="card-text">$99.00/<span class="day">day</span> </h5>
+          <a href="./payment.html" class="btn btn-primary">Rent Now</a>
+        </div>
+        </div>
+      </div>
     </div>
-    <div class="rent-now">
-      <h5 class="card-text">$80.00/<span class="day">day</span> </h5>
-      <a href="#" class="btn btn-primary">Rent Now</a>
-      <del class="delt">$100.00</del>
+    <div class="car-cards">
+      <div class="card" >
+        <div class="flex">
+        <h5 class="h-1-1">Nissan GT-R </h5>
+        <i class="fa fa-heart-o" style="color:#a9aaac;"></i>
+      </div>
+        <p class="p-1-1">Sport</p>
+        <img class="card-img-top" src="./car2.png" alt="Card image">
+        <div class="card-body">
+          <div class="card-icon">
+          <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">80L</span> </i>
+          <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
+          <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
+            <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
+            <span class="p-1-2">2 People</span> </i>
+        </div>
+        <div class="rent-now">
+          <span>
+          <h5 class="card-text">$80.00/<span class="day">day</span> </h5>
+          <del class="delt">$100.00</del>
+        </span>
+          <a href="./payment.html" class="btn btn-primary">Rent Now</a>
+        
+      </div>
+        </div>
+      </div>
     </div>
+    <div class="car-cards">
+      <div class="card" >
+        <div class="flex">
+        <h5 class="h-1-1">Rolls-Royce</h5><i class="fa fa-heart" style="color: rgb(214, 27, 27);"></i>
+      </div>
+        <p class="p-1-1">Sedan</p>
+        <img class="card-img-top" src="./Car3.png" alt="Card image">
+        <div class="card-body">
+          <div class="card-icon">
+          <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">70L</span> </i>
+          <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
+          <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
+            <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
+            <span class="p-1-2">4 People</span> </i>
+        </div>
+        <div class="rent-now">
+          <h5 class="card-text">$96.00/<span class="day">day</span> </h5>
+          <a href="./payment.html" class="btn btn-primary">Rent Now</a>
+        </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="car-cards">
-  <div class="card" >
-    <h5 class="h-1-1">All New Rush <span><i class="fa fa-heart" style="color: rgb(245, 241, 241); margin-left:60px;"></i></span></h5>
-    <p class="p-1-1">SUV</p>
-    <img class="card-img-top" src="./Car5.png" alt="Card image">
-    <div class="card-body">
-      <div class="card-icon">
-      <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">70L</span> </i>
-      <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
-      <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
-        <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
-        <span class="p-1-2">6 People</span> </i>
+      <div class="car-cards">
+        <div class="card" >
+          <div class="flex">
+          <h5 class="h-1-1">All New Rush</h5>
+          <i class="fa fa-heart-o" style="color:#a9aaac;"></i>
+        </div>
+          <p class="p-1-1">SUV</p>
+          <img class="card-img-top" src="./Car5.png" alt="Card image">
+          <div class="card-body">
+            <div class="card-icon">
+            <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">70L</span> </i>
+            <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
+            <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
+              <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
+              <span class="p-1-2">6 People</span> </i>
+          </div>
+          <div class="rent-now">
+            <span>
+              <h5 class="card-text">$72.00/<span class="day">day</span> </h5>
+              <del class="delt">$80.00</del>
+            </span>
+            <a href="./payment.html" class="btn btn-primary">Rent Now</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="car-cards">
+        <div class="card" >
+          <div class="flex">
+          <h5 class="h-1-1">CR-V </h5>
+            <i class="fa fa-heart" style="color: rgb(214, 27, 27); "></i>
+        </div>
+          <p class="p-1-1">SUV</p>
+          <img class="card-img-top" src="./Car6.png" alt="Card image">
+          <div class="card-body">
+            <div class="card-icon">
+            <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">80L</span> </i>
+            <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
+            <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
+              <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
+              <span class="p-1-2">6 People</span> </i>
+          </div>
+          <div class="rent-now">
+            <h5 class="card-text">$80.00/<span class="day">day</span> </h5>
+            <a href="./payment.html" class="btn btn-primary">Rent Now</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="car-cards">
+        <div class="card" >
+          <div class="flex">
+          <h5 class="h-1-1">All New Terios </h5>
+          <i class="fa fa-heart-o" style="color:#a9aaac;"></i>
+        </div>
+          <p class="p-1-1">SUV</p>
+          <img class="card-img-top" src="./Car7.png" alt="Card image">
+          <div class="card-body">
+            <div class="card-icon">
+            <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">90L</span> </i>
+            <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
+            <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
+              <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
+              <span class="p-1-2">6 People</span> </i>
+          </div>
+          <div class="rent-now">
+            <h5 class="card-text">$74.00/<span class="day">day</span> </h5>
+            <a href="./payment.html" class="btn btn-primary">Rent Now</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="car-cards">
+        <div class="card" >
+          <div class="flex">
+          <h5 class="h-1-1">CR-V </h5>
+          <i class="fa fa-heart" style="color: rgb(214, 27, 27);"></i>
+        </div>
+          <p class="p-1-1">SUV</p>
+          <img class="card-img-top" src="./Car8.png" alt="Card image">
+          <div class="card-body">
+            <div class="card-icon">
+            <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">80L</span> </i>
+            <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
+            <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
+              <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
+              <span class="p-1-2">6 People</span> </i>
+          </div>
+          <div class="rent-now">
+            <h5 class="card-text">$80.00/<span class="day">day</span> </h5>
+            <a href="./payment.html" class="btn btn-primary">Rent Now</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="car-cards">
+        <div class="card" >
+          <div class="flex">
+          <h5 class="h-1-1">MG ZX Exclusive </h5>
+          <i class="fa fa-heart" style="color: rgb(199, 21, 21);"></i>
+        </div>
+          <p class="p-1-1">Hatchback</p>
+          <img class="card-img-top" src="./car.png" alt="Card image">
+          <div class="card-body">
+            <div class="card-icon">
+            <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">70L</span> </i>
+            <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
+            <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
+              <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
+              <span class="p-1-2">4 People</span> </i>
+          </div>
+          <div class="rent-now">
+            <span>
+              <h5 class="card-text">$76.00/<span class="day">day</span> </h5>
+              <del class="delt">$80.00</del>
+            </span>
+            <a href="./payment.html" class="btn btn-primary">Rent Now</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="car-cards">
+        <div class="card" >
+          <div class="flex">
+          <h5 class="h-1-1">New MG ZS</h5>
+          <i class="fa fa-heart-o" style="color: #a9aaac;"></i>
+        </div>
+          <p class="p-1-1">SUV</p>
+          <img class="card-img-top" src="./Car3.png" alt="Card image">
+          <div class="card-body">
+            <div class="card-icon">
+            <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">80L</span> </i>
+            <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
+            <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
+              <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
+              <span class="p-1-2">6 People</span> </i>
+          </div>
+          <div class="rent-now">
+            <h5 class="card-text">$99.00/<span class="day">day</span> </h5>
+            <a href="./payment.html" class="btn btn-primary">Rent Now</a>
+          </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="rent-now">
-      <h5 class="card-text">$72.00/<span class="day">day</span> </h5>
-      <a href="#" class="btn btn-primary">Rent Now</a>
-      <del class="delt">$80.00</del>
+    <div class="showe">
+      <div class="show-more">
+        <a class="showmo" href="./catagory.html">Show more</a>
+      </div>
     </div>
-    </div>
-  </div>
-</div>
-<div class="car-cards">
-  <div class="card" >
-    <h5 class="h-1-1">CR-V <span><i class="fa fa-heart" style="color: rgb(214, 27, 27);  margin-left: 130px; "></i></span></h5>
-    <p class="p-1-1">SUV</p>
-    <img class="card-img-top" src="./Car6.png" alt="Card image">
-    <div class="card-body">
-      <div class="card-icon">
-      <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">80L</span> </i>
-      <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
-      <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
-        <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
-        <span class="p-1-2">6 People</span> </i>
-    </div>
-    <div class="rent-now">
-      <h5 class="card-text">$80.00/<span class="day">day</span> </h5>
-      <a href="#" class="btn btn-primary">Rent Now</a>
-    </div>
-    </div>
-  </div>
-</div>
-<div class="car-cards">
-  <div class="card" >
-    <h5 class="h-1-1">All New Terios <span><i class="fa fa-heart" style="color: rgb(218, 217, 217);  margin-left: 45px; "></i></span></h5>
-    <p class="p-1-1">SUV</p>
-    <img class="card-img-top" src="./Car7.png" alt="Card image">
-    <div class="card-body">
-      <div class="card-icon">
-      <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">90L</span> </i>
-      <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
-      <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
-        <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
-        <span class="p-1-2">6 People</span> </i>
-    </div>
-    <div class="rent-now">
-      <h5 class="card-text">$74.00/<span class="day">day</span> </h5>
-      <a href="#" class="btn btn-primary">Rent Now</a>
-    </div>
-    </div>
-  </div>
-</div>
-<div class="car-cards">
-  <div class="card" >
-    <h5 class="h-1-1">CR-V <span><i class="fa fa-heart" style="color: rgb(214, 27, 27); margin-left: 130px; "></i></span></h5>
-    <p class="p-1-1">SUV</p>
-    <img class="card-img-top" src="./Car8.png" alt="Card image">
-    <div class="card-body">
-      <div class="card-icon">
-      <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">80L</span> </i>
-      <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
-      <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
-        <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
-        <span class="p-1-2">6 People</span> </i>
-    </div>
-    <div class="rent-now">
-      <h5 class="card-text">$80.00/<span class="day">day</span> </h5>
-      <a href="#" class="btn btn-primary">Rent Now</a>
-    </div>
-    </div>
-  </div>
-</div>
-<div class="car-cards">
-  <div class="card" >
-    <h5 class="h-1-1">MG ZX Exclusive <span><i class="fa fa-heart" style="color: rgb(199, 21, 21);  margin-left: 30px; "></i></span></h5>
-    <p class="p-1-1">Hatchback</p>
-    <img class="card-img-top" src="./car.png" alt="Card image">
-    <div class="card-body">
-      <div class="card-icon">
-      <i class="fa-solid fa-gas-pump" style="color: rgb(158, 156, 156);"><span class="p-1-2">70L</span> </i>
-      <i class="fa-brands fa-dribbble"style="color: rgb(158, 156, 156);"><span class="p-1-2">Manual</span> </i>
-      <i class="fa-solid fa-user "style="color: rgb(158, 156, 156);">
-        <i class="fa-solid fa-user" style="margin-left: -12px;"></i>
-        <span class="p-1-2">4 People</span> </i>
-    </div>
-    <div class="rent-now">
-      <h5 class="card-text">$76.00/<span class="day">day</span> </h5>
-      <a href="#" class="btn btn-primary">Rent Now</a>
-      <del class="delt">$80.00</del>
-    </div>
-    </div>
-  </div>
-</div>
-
-</div>
-<div class="show-more">
-  <p class="">Show more car</p>
-</div>
-<p class="p-1-4">120 Car</p>
+    <span class="p-1-5">
+    <p class="p-1-4">120 Car</p>
+    </span>
+    
 </div>
 </div>
 <footer>
   <div class="footer-detail">
   <div class="site-detail">
-    <h3 style="color: rgb(58, 45, 240);">MORENT</h3>
+    <h2 style="color: rgb(6, 72, 214) ;">MORENT</h2>
     <p class="p-1-3">Our vision is to provide convenience and help increase your sales business</p>
 
   </div>
@@ -371,36 +472,35 @@
 <div class="footer-link">
   <h5>About</h5>
   <div class="links">
-  <a class="foter-link" href="">How it works</a>
-  <a class="foter-link" href="">Featured</a>
-  <a class="foter-link" href="">Partnership</a>
-  <a class="foter-link" href="">Business Relation</a>
+  <a class="foter-link" href="./catagory.html">How it works</a>
+  <a class="foter-link" href="./Deatail-Car.html">Featured</a>
+  <a class="foter-link" href="./payment-car-rent.html">Partnership</a>
+  <a class="foter-link" href="./pages/payment.html">Business Relation</a>
 </div>
 </div>
 <div class="footer-link">
   <h5>Community</h5>
   <div class="links">
-  <a class="foter-link" href="">Events</a>
-  <a class="foter-link" href="">Blogs</a>
-  <a class="foter-link" href="">Podcast</a>
-  <a class="foter-link" href="">Invite a friend</a>
+  <a class="foter-link" href="./catagory.html">Events</a>
+  <a class="foter-link" href="./Deatail-Car.html">Blogs</a>
+  <a class="foter-link" href="./payment-car-rent.html">Podcast</a>
+  <a class="foter-link" href="./payment.html">Invite a friend</a>
 </div>
 </div>
 <div class="footer-link">
   <h5>Social</h5>
   <div class="links">
-  <a class="foter-link" href="">Discord</a>
-  <a class="foter-link" href="">Instagram</a>
-  <a class="foter-link" href="">Twitter</a>
-  <a class="foter-link" href="">Facebook</a>
+  <a class="foter-link" href="./catagory.html">Discord</a>
+  <a class="foter-link" href="./Deatail-Car.html">Instagram</a>
+  <a class="foter-link" href="./payment-car-rent.html">Twitter</a>
+  <a class="foter-link" href="./payment.html">Facebook</a>
 </div>
 </div>
   </div>
 </div>
-<hr>
 <div class="copywrite">
 <div class="h7">
-<i class="fa-regular fa-copyright fa-sm" style="color: #171718;"> </i>
+<i class="fa-regular fa-copyright fa-sm" style="color: #171718;font-size: x-large;"> </i>
 <h6 class="h6">2022 MORENT.</h6>
 <p class="h6">All right reserved</p>
 </div>
@@ -410,7 +510,7 @@
 </div>
 </div>
 </footer>
-</div>
+
 
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
