@@ -31,7 +31,7 @@ body{
     font-size: 30px !important;
     font-weight: 600 !important;
 }
-.search-bar{
+/* .search-bar{
     display: inline-flex !important;
     padding: 10px 20px;
     align-items: center;
@@ -41,7 +41,7 @@ background-color: white;
 border:1px solid #f0eeee;
 border-radius: 20px;
 /* margin-left: 50px  */
-}
+} */
 .navbar-collapse{
     justify-content: space-between;
     flex-grow: 0;
