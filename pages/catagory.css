@@ -1,7 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 body{
     overflow-x: hidden;
@@ -382,7 +382,7 @@ margin-left: 100%;
 .foter-link{
     text-decoration: none;
     font-size: small;
-    color: rgb(158, 157, 157);
+    color: var(--text-color);
     line-height: 30px;
 }
 .h7{
