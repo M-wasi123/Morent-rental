@@ -40,7 +40,7 @@ height: 40px;
 background-color: white;
 border:1px solid #f0eeee;
 border-radius: 20px;
-/* margin-left: 50px  */
+margin-left: 50px 
 } */
 .navbar-collapse{
     justify-content: space-between;
@@ -454,8 +454,8 @@ width: 100%;
 }
 
 .footer-detail{
-    padding: 50px 40px;
-    /* padding-left: 60px; */
+    padding: 50px 20px;
+    padding-left: 60px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -470,8 +470,9 @@ width: 100%;
 
 .footer-page{
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: space-between;
+    width: 40%;
+    gap: 10px;
     
 }
 
@@ -490,7 +491,8 @@ width: 100%;
 .h7{
     display: flex;
 align-items: center;
-/* margin:0px 40px; */
+margin:0px 40px;
+gap: 3px;
 }
 .h6{
     margin-top: 3px;
@@ -502,11 +504,13 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     border-top: 1px solid var(--light-color);
-    padding: 15px 20px;
+    padding: 20px 1px;
 }
 .policy{
-    width: 30%;
+    width: 250px;
     display: flex;
-    justify-content: space-around;
-    /* align-items: flex-end; */
+    justify-content: space-between;
+}
+@media only screen and (max-width:999px) {
+    
 }
