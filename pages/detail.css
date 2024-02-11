@@ -183,9 +183,9 @@ width: 20%;
  .pics-3{
     
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 45px;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
     align-items: center;
     width: 100%;
  }
@@ -218,7 +218,7 @@ width: 20%;
     border-radius: 5px;
  }
  .car-image-3{
-    width: 80%;
+    width: 90%;
     
     
  }
