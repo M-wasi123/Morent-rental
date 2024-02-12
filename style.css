@@ -638,7 +638,7 @@ gap: 3px;
         padding:30px 40px;
     }
    .selection{
-    background-color: none;
+    background-color: white;
    }
     .footer-page{
         display: flex;
