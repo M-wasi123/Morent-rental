@@ -588,6 +588,9 @@ padding: 10px 30px;
     .up-down{
         width: 15%;
     }
+    .time{
+        margin-top: 10px;
+    }
     .selection{
         font-size: xx-small;
         background-color: white;
