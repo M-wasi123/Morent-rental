@@ -697,5 +697,7 @@ justify-content: center;
     .parrent-container{
         padding: 20px 10px;
     }
-
+.pics-3{
+    gap: 10px;
+}
 }
