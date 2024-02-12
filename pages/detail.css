@@ -703,4 +703,14 @@ justify-content: center;
 .reveiws{
     padding: 15px 10px;
 }
+.reveiws-section{
+    align-items: center;
+    padding: 10px 0px;
+}
+.stars{
+    padding-top: 35px;
+}
+.star-5{
+    margin-top: -10px;
+}
 }
