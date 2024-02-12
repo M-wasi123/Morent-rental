@@ -644,6 +644,9 @@ gap: 3px;
    .up-down{
     width: 20%;
    }
+   .pick-and-drop{
+    padding: 20px 10px;
+   }
     .footer-page{
         display: flex;
         justify-content: space-between;
