@@ -682,6 +682,9 @@ justify-content: center;
 }
 }
 @media only screen and (max-width:500px) {
+    .navbar-expand{
+        padding: 20px 10px;
+    }
     .navbar-brand{
         font-size: large;
     }
@@ -694,5 +697,5 @@ justify-content: center;
     .parrent-container{
         padding: 20px 10px;
     }
-    
+
 }
