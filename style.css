@@ -641,6 +641,9 @@ gap: 3px;
    .selection{
     background-color:white;
    }
+   .up-down{
+    width: 20%;
+   }
     .footer-page{
         display: flex;
         justify-content: space-between;
