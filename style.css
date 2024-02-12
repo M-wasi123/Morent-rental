@@ -492,6 +492,7 @@ gap: 3px;
     }
     .pick-and-drop{
         flex-direction: column;
+        gap: 1px;
     }
     .pick{
         font-weight: 600;
