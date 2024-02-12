@@ -492,19 +492,20 @@ gap: 3px;
     }
     .pick-and-drop{
         flex-direction: column;
-        gap: 0px;
     }
     .pick{
         font-weight: 600;
         font-size: xx-large;
         color: black;
         height: 180px;
+        padding: 10px;
     }
     .drop{
         font-size: xx-large;
         font-weight: 600;
         color: black;
         height: 180px;
+        padding: 10px;
     }
 .h-6-1{
     font-size: 20px;
