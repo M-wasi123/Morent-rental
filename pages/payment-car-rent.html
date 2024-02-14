@@ -62,26 +62,29 @@
 <div class="child-container">
   <div>
 <div class="billing">
+  <div class="h-p">
 <h5 class="h-5">Billing Info</h5>
-<p class="p-1">Please enter you billing info</p>
 <p class="p-2">Step 1 of 4</p>
+</div>
+<p class="p-1">Please enter you billing info</p>
+
 <div class="address-city">
 <div class="name-1">
   <div>
-<h5>Name</h5>
+<h6>Name</h6>
 <input class="input" placeholder="Your name" type="text" >
 <br>
 <br>
-<h5>Address</h5>
+<h6>Address</h6>
 <input class="input" placeholder="Your Address" type="text" >
 </div>
 </div>
 <div class="phone-number">
-  <h5>Phone Number</h5>
-  <input class="input" placeholder="Phone number" type="text" >
+  <h6>Phone Number</h6>
+  <input class="input" placeholder="Phone number" type="number" >
   <br>
   <br>
-  <h5>Town/City</h5>
+  <h6>Town/City</h6>
   <input class="input" placeholder="Town or city" type="text" >
 </div>
 </div>
@@ -89,16 +92,19 @@
 </div>
 <div>
 <div class="rental-info">
+  <div class="h-p">
   <h5 class="h-5">Rental Info</h5>
+  <p class="p-2">Step 2 of 4</p>
+</div>
 <p class="p-1">Please select your rental date</p>
-<p class="p-2">Step 2 of 4</p>
+
 <div>
   <input type="radio" id="radio">
   <label class="pick-up" for="radio">Pick - Up</label>
 </div>
 <div class="name-2">
   <div class="Locations">
-<h5>Locations</h5>
+<h6>Locations</h6>
 <div class="seles">
 <select class="sele" name="" id="">
   <option class="p-1-2" selected disabled>Select your city</option>
@@ -109,15 +115,15 @@
 </div>
 <br>
 <br>
-<h5 class="h-6">Time</h5>
+<h6 class="h-6">Time</h6>
 <div class="seles">
   <select class="sele" name="" id="">
     <option class="p-1-2" selected disabled>Select your time</option>
   </select>
   </div>
 </div>
-<div class="phone-number">
-  <h5>Date</h5>
+<div class="phonenumber">
+  <h6>Date</h6>
   <div class="seles">
     <select class="sele" name="" id="">
       <option class="p-1-2" selected disabled>Select your date</option>
@@ -127,11 +133,11 @@
 </div>
 <div class="radio-1">
   <input type="radio" id="Drop">
-  <label class="pick-up" for="Drop">Drop - Off</label>
+  <label class="pickup" for="Drop">Drop - Off</label>
 </div>
 <div class="name-2">
   <div class="Locations">
-<h5>Locations</h5>
+<h6>Locations</h6>
 <div class="seles">
 <select class="sele" name="" id="">
   <option class="p-1-2" selected disabled>Select your city</option>
@@ -142,15 +148,15 @@
 </div>
 <br>
 <br>
-<h5 class="h-6">Time</h5>
+<h6 class="h-6">Time</h6>
 <div class="seles">
   <select class="sele" name="" id="">
     <option class="p-1-2" selected disabled>Select your time</option>
   </select>
   </div>
 </div>
-<div class="phone-number">
-  <h5>Date</h5>
+<div class="phonenumber">
+  <h6>Date</h6>
   <div class="seles">
     <select class="sele" name="" id="">
       <option class="p-1-2" selected disabled>Select your date</option>
@@ -161,12 +167,15 @@
 </div>
 </div>
 <div class="payment-method">
+  <div class="h-p">
   <h5 class="h-5">Payment Method</h5>
+  <p class="p-2">Step 3 of 4</p>
+</div>
 <p class="p-1">Please enter your payment method</p>
-<p class="p-2">Step 3 of 4</p>
+
 <div class="card-detail">
   <div class="visa">
-  <div>
+  <div class="rad-cla">
     <input type="radio" id="Card">
     <label class="Card-1" for="Card">Credit Card</label>
   </div>
@@ -191,7 +200,7 @@
     <br>
     <br>
     <h6>CVC</h6>
-    <input class="input-1" placeholder="CVC" maxlength="3" type="number" >
+    <input class="input-1" placeholder="CVC" maxlength="3" type="password"  >
   </div>
   </div>
 </div>
@@ -215,10 +224,13 @@
 </div>
 </div>
 <div class="confirmation">
+  <div class="h-p">
 <h5 class="h-3">Confirmation</h5>
-<p class="p-1">We are getting to the end. Just few clicks and your rental is ready!</p>
 <p class="p-2">Step 4 of 4</p>
+</div>
+<p class="p-1">We are getting to the end. Just few clicks and your rental is ready!</p>
 
+<div class="red-pri">
   <div class="read">
     <input type="checkbox" id="promised">
     <label class="Bitcoin" for="promised">I agree with sending and Marketing and newsletter emails. No spam, promised!</label>
@@ -227,6 +239,7 @@
     <input type="checkbox" id="privacy">
     <label class="Bitcoin" for="privacy">I agree with our terms and conditions and privacy policy.</label>
   </div>
+</div>
   <button class="rent">
     <a class="now" href="">Rent Now</a>
   </button>

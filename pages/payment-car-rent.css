@@ -17,7 +17,7 @@ body{
 }
 .navbar-expand{
     width: 100%;
-    padding: 20px 30px;
+    padding: 20px 20px;
     background-color: white !important;
     align-items: center !important;
 }
@@ -138,7 +138,7 @@ margin-left: 50px
     padding: 15px;
 }
 .h-5{
-    font-size:large;
+    font-size:20px;
 letter-spacing: -1px;
 }
 .p-1{
@@ -150,7 +150,7 @@ letter-spacing: -1px;
     text-align: right;
     font-size: small;
     color: var(--text-color);
-    margin-top: -35px;
+    /* margin-top: -35px; */
 }
 .address-city{
     display: flex;
@@ -160,12 +160,14 @@ letter-spacing: -1px;
 }
 .name-1{
     width: 100%;
+    padding-top: 20px;
 }
 .phone-number{
     width: 100%;
+    padding-top: 20px;
 }
 h6{
-    font-size: medium;
+    font-size: small;
 }
 .input{
 width: 100%; 
@@ -189,6 +191,10 @@ color: var(--text-color);
     font-size: medium;
     letter-spacing: -0.5px;
     font-weight: 500;
+    padding-top: 20px;
+}
+.phonenumber{
+    width: 100%;
 }
 .name-2{
     margin-top: 20px;
@@ -200,7 +206,11 @@ color: var(--text-color);
 .h-6{
     margin-top: -30px;
 }
-
+.pickup{
+    font-size: medium;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+}
 .sele{
     border: none;
     outline: none;
@@ -229,6 +239,7 @@ color: var(--text-color);
     padding: 15px;
 }
 .card-detail{
+    margin-top: 20px;
     padding: 15px 20px;
     background-color: var(--light-color);
     width: 100%;
@@ -243,12 +254,15 @@ color: var(--text-color);
     justify-content: space-between;
     width: 100%;
 }
+.rad-cla{
+    width: 100%;
+}
 .visa-{
     display: flex;
     justify-content: end;
 }
 .visa-img{
-    width: 40%;
+    width: 50%;
     background-color: var(--light-color);
     border-radius: 10px;
 }
@@ -304,7 +318,7 @@ font-weight: 600;
     padding: 3px 20px;
 } 
 .Bitcoin{
-    font-size: medium;
+    font-size: small;
     font-weight: 600;
 }
 .bit-coin{
@@ -320,6 +334,13 @@ font-weight: 600;
         width:100%;
         padding: 15px;
    
+}
+.h-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
 }
 .h-3{
 font-weight: 600;
@@ -343,6 +364,9 @@ font-weight: 600;
     padding: 10px 20px;
     gap: 20px;
     background-color: var(--light-color);
+}
+.red-pri{
+    margin-top: 20px;
 }
 .rent{
     margin-top: 30px;
@@ -375,7 +399,7 @@ font-weight: 600;
     color: var(--text-color);
 }
 .mini-container{
-    width: 100%;
+    width: 80%;
 }
 .rental-summary{
     width:100%;
@@ -388,8 +412,11 @@ font-weight: 600;
 
 .h-4-1{
     color: black;
-    font-size: large;
+    font-size:22px;
     font-weight: 700;
+}
+.p-3{
+    margin-left: -15px;
 }
 .nissan-review{
     display: flex;
@@ -410,6 +437,7 @@ width: 100%;
 .h-4-2{
     color: black;
     font-weight: 700;
+    font-size: large;
 }
 .subtotal{
     display: flex;
@@ -439,7 +467,15 @@ width: 100%;
     margin: 20px 0px;
     padding: 10px 20px;
 }
+.promo-code{
+    width: 100%;
+    background-color: var(--light-color);
+    border: none;
+    outline: none;
+}
 .nows{
+    text-align: right;
+    width: 30%;
     color: black;
     font-weight: 620;
     font-size: small;
@@ -520,243 +556,36 @@ gap: 3px;
     .main-container{
        flex-direction: column-reverse;
     }
-    .rental-summary{
-        padding: 20px 30px;
+    .mini-container{
+        width: 100%;
     }
-    .h-4-1{
-font-size: xx-large;
+    .input{
+        font-size: small;
+        color: var(--text-color);
     }
-    .p-3{
-        margin-left: -15px;
-        font-size: medium;
+    .sele{
+        font-size: small;
     }
-    .nissan-car{
-        padding: 40px 20px;
-    }
-    .h-4-2{
-        font-size: xx-large;
-    }
-    .total{
-        font-size: x-large;
-    }
-    .dollar{
-        font-size: x-large;
-    }
-    .promo-code{
-    border: none;
-    outline: none;
-    background-color: var(--light-color);
-    font-size: large;
+.footer-detail{
+    flex-direction: column;
 }
-.nows{
-    font-size: large;
-}
-.h-5-1{
-    font-size: x-large;
-}
-.p-9{
-    font-size: medium;
-}
-.billing{
-    padding: 20px 30px;
-}
-.h-5{
-    font-size:xx-large;
-}
-.p-1{
-    font-size: medium;
-}
-.p-2{
-    font-size: medium;
-}
-.rental-info{
-    padding: 20px 30px;
-}
-.pick-up{
-    font-size: x-large;
-}
-.name-2{
-    margin-top: 20px;
-    display: flex;
-    justify-content:space-between ;
-    width: 100%;
-    gap: 20px;
-}
-.h-6{
-    margin-top: -30px;
+.footer-page{
+    width: 70%;
+    justify-content: space-between;
+    align-self: center;
 }
 
-.sele{
-    border: none;
-    outline: none;
-    background-color: var(--light-color);
-    border-radius: 5px;
-    color: var(--text-color);
-    width: 100%;
-    font-size: medium;
-    padding: 10px 10px;
+
 }
-.Locations{
-    width: 100%;
-}
-.p-1-2{
-    color: black;
-    font-size: medium;
-}
-.radio-1{
-    margin-top: 30px;
-}
-.payment-method{
-    border-radius: 5px;
-    background-color: white;
-    margin-top: 20px;
-    width: 100%;
-    padding: 15px;
-}
-.card-detail{
-    padding: 15px 20px;
-    background-color: var(--light-color);
-    width: 100%;
-    border-radius: 5px;
-}
-.Card-1{
-    font-size: large;
-    font-weight: 600;
-}
-.visa{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-.visa-{
-    display: flex;
-    justify-content: end;
-}
+
+@media only screen and (max-width:496px) {
 .visa-img{
-    width: 40%;
-    background-color: var(--light-color);
-    border-radius: 10px;
+    width: 60%;
 }
-.address-city-1{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    gap: 20px;
-}
-.input-1{
-    width: 100%; 
-    /* height: 35px; */
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    font-size: small;
-    background-color: white;
-    color: var(--text-color);
-    }
-.account{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 5px;
-    background-color: var(--light-color);
-    align-items: center;
-    width:100%;
-    margin-top: 20px;
-    padding: 15px 20px;
-} 
-.pay{
-    width: 100%;
-}  
-.PayPal{
-font-size: medium;
-font-weight: 600;
-} 
-.pay-pal{
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.account-1{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 5px;
-    background-color: var(--light-color);
-    align-items: center;
-    width: 100%;
-    margin-top: 20px;
-    padding: 3px 20px;
-} 
-.Bitcoin{
-    font-size: medium;
-    font-weight: 600;
-}
-.bit-coin{
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-}
-.confirmation{
-    
-        border-radius: 5px;
-        background-color: white;
-        margin-top: 20px;
-        width:100%;
-        padding: 15px;
-   
-}
-.h-3{
-font-weight: 600;
-}
-.read{
-    width: 100%;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    gap: 20px;
-    background-color: var(--light-color);
-}
-
-.privacy{
-    width: 100%;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    padding: 10px 20px;
-    gap: 20px;
-    background-color: var(--light-color);
-}
-.rent{
-    margin-top: 30px;
-    width: 25%;
-    /* height: 50px; */
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    display: flex;
+.copywrite{
+    flex-direction: column;
     justify-content: center;
-    padding: 20px 0px ;
-    background-color: var(--daark-color);
-    color: white;
+    align-items: center;
 }
-.now{
-    color: white;
-    text-decoration: none;
-    font-weight: 550;
-    font-size: 100%;
-}
-.h-4{
-    margin-top: 20px;
-    font-size: medium;
-    font-weight: 700;
-}
-.p-4{
-    margin-left: -25px;
-    margin-top: -25px;
-    font-size: small;
-    color: var(--text-color);
-}
+
 }
