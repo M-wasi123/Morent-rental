@@ -191,7 +191,7 @@ border-radius: 20px;
 }
 .car-1{
     object-fit: cover;
-    width: 70%;
+    width: 100%;
 }
 .pick-and-drop{
     display: flex;
@@ -483,9 +483,6 @@ gap: 3px;
         color: var(--text-color);
         display:block;
     }
-    .car-card-2{
-        display: none;
-    }
     .car-1{
         object-fit:cover;
         width: 100%;
@@ -535,6 +532,9 @@ gap: 3px;
     .search-bar{
         width: 50%;
         /* height: 30px; */
+    }
+    .car-card-2{
+        display: none;
     }
 .cards-page{
     grid-template-columns: auto auto;
