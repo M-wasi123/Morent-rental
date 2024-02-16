@@ -118,6 +118,9 @@ border-radius: 20px;
 .body-parent{
     display: flex;
 }
+.filter{
+    display: none;
+}
 .side-pannel{
 width: 20%;
 }
@@ -422,13 +425,6 @@ gap: 3px;
         grid-template-columns:auto auto auto ;
         row-gap: 30px;
     }
-
-
-
-
-
-
-
 }
 @media only screen and (max-width:970px) {
     .side-pannel{
@@ -530,6 +526,9 @@ gap: 3px;
         flex-direction: column;
         background-color: var(--light-color);
     } */
+    .filter{
+        display: block;
+    }
 
     .side-pannel{
 display: none;

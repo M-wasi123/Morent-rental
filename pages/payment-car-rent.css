@@ -613,8 +613,21 @@ gap: 3px;
         flex-direction: column;
         row-gap: 20px;
     }
+    .input{
+        font-size: x-small;
+    }
     .p-1{
         font-size: x-small;
+    }
+    .sele{
+        font-size: x-small;
+    }
+    .input-1{
+        font-size: x-small;
+    }
+    .visa-img{
+        width: 50%;
+        object-fit: contain;
     }
     .pay-pal{
         width: 70%;
