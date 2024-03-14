@@ -7,6 +7,7 @@
 }
 body{
     overflow-x: hidden;
+    position: relative;
 }
 :root {
     --light-color:#f0f2f5ea;
@@ -47,10 +48,34 @@ border-radius: 20px;
     justify-content: space-between;
     flex-grow: 0;
 }
+
 .bar{
     display: none;
+    
+}
+#bar-icon{
+    font-size: x-large;
+    color: var(--text-color);
 }
 
+.navbalinks {
+    width: 50%;
+    height: 100vh;
+    float: right;
+    display: none;
+    background-color: #f0eeee;
+    line-height: 30px;
+    position: absolute;
+    z-index: 1;
+    padding: 10px 20px;
+  }
+#page-link {
+    color: rgb(43, 42, 42);
+    text-decoration: none;
+    font-size: large;
+    margin-left: 20px;
+}
+ 
 .form-controll{
     font-size: small;
     width: 100%;
@@ -126,6 +151,8 @@ border-radius: 20px;
    justify-content: center;
    align-items: center;
    overflow: hidden;
+   /* position: absolute; */
+   z-index: -1;
 }
 .main-container{
     width: 100%;
@@ -397,6 +424,8 @@ margin-left: 100%;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    /* position: absolute; */
+    
 }
 .p-1-3{
     margin-top: 20px;

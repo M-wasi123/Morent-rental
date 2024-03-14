@@ -48,6 +48,29 @@ border-radius: 20px;
 .bar{
     display: none;
 }
+  #bar-icon{
+    font-size: x-large;
+    color: var(--text-color);
+}
+
+.navbalinks {
+    width: 50%;
+    height: 100vh;
+    float: right;
+    display: none;
+    background-color: #f0eeee;
+    line-height: 30px;
+    position: absolute;
+    z-index: 1;
+    padding: 10px 20px;
+  }
+#page-link {
+    color: rgb(43, 42, 42);
+    text-decoration: none;
+    font-size: large;
+    margin-left: 20px;
+}
+ 
 
 .form-controll{
     font-size: small;
