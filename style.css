@@ -16,7 +16,11 @@ body{
     --blue-color:#2A60B7;
     --daark-color:#4991ee;
 }
-
+.logo{
+    padding: 30px;
+    width: 100%;
+background-color: white;
+}
 .navbar-expand{
     width: 100%;
     padding: 20px 30px;
@@ -33,11 +37,11 @@ body{
     font-size: 30px !important;
     font-weight: 600 !important;
 }
-.search-bar{
-    display: inline-flex !important;
+.searbar{
+    display:flex ;
     padding: 10px 20px;
     align-items: center;
-width: 30%;
+width: 40%;
 height: 40px;
 background-color: white;
 border:1px solid #f0eeee;
@@ -59,23 +63,34 @@ border-radius: 20px;
 }
 
 .navbalinks {
-    width: 50%;
-    height: 100vh;
+    width: 80%;
+    height: 84vh;
     float: right;
     display: none;
-    background-color: #f0eeee;
+    background-color: rgb(240, 240, 240);
     line-height: 30px;
     position: absolute;
     z-index: 1;
-    padding: 10px 20px;
+    border-radius: 10px;
   }
+
 #page-link {
     color: rgb(43, 42, 42);
     text-decoration: none;
     font-size: large;
     margin-left: 20px;
 }
- 
+.pages-detail{
+    padding: 20px 30px;
+}
+ .pages-link{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 20px 0px;
+ }
+ .pageslink{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 20px 15px;
+ }
 .form-controll{
     font-size: small;
     width: 100%;
