@@ -1,11 +1,10 @@
 function togglerNavbar() {
 
     var navbarLinks = document.getElementById("navbarLinks");
-    if (navbarLinks.style.display === "none") {
+    if (navbarLinks.style.display == "block") {
 
-      navbarLinks.style.display = "block" ;
+      navbarLinks.style.display = "none" ;
     } else {
-      navbarLinks.style.display = "none";
+      navbarLinks.style.display = "block";
     }
   }
-  

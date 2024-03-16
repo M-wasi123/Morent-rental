@@ -13,7 +13,11 @@ body{
     --blue-color:#2A60B7;
     --daark-color:#4991ee;
 }
-
+.logo{
+    padding: 30px;
+    width: 100%;
+background-color: white;
+}
 .navbar-expand{
     width: 100%;
     padding: 20px 30px;
@@ -47,30 +51,42 @@ border-radius: 20px;
 }
 .bar{
     display: none;
+    
 }
-  #bar-icon{
+#bar-icon{
     font-size: x-large;
     color: var(--text-color);
 }
 
 .navbalinks {
-    width: 50%;
-    height: 100vh;
+    width: 80%;
+    height:100vh;
     float: right;
     display: none;
-    background-color: #f0eeee;
+    background-color: rgb(240, 240, 240);
     line-height: 30px;
     position: absolute;
     z-index: 1;
-    padding: 10px 20px;
+    border-radius: 10px;
   }
+
 #page-link {
     color: rgb(43, 42, 42);
     text-decoration: none;
     font-size: large;
     margin-left: 20px;
 }
- 
+.pages-detail{
+    padding: 20px 30px;
+}
+ .pages-link{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 20px 0px;
+ }
+ .pageslink{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 20px 15px;
+ }
 .form-controll{
     font-size:medium;
     width: 100%;
@@ -175,6 +191,9 @@ width: 20%;
 .p-1-6{
     font-weight: 600;
     font-size: medium;
+}
+#range{
+    width: 100%;
 }
 .parrent-container{
     width: 100%;
@@ -554,6 +573,10 @@ gap: 3px;
 
     .side-pannel{
 display: none;
+width: 70%;
+position: absolute;
+z-index: 1;
+background-color: #ffffff;
     }
     .type{
         width: 100%;
@@ -585,6 +608,9 @@ display: none;
     }
 }
 @media only screen and (max-width:480px){
+    .logo{
+        padding: 25px;
+    }
     .navbar-brand{
         font-size: medium !important;
     }
@@ -595,6 +621,7 @@ display: none;
         width: 50%;
         padding: 5px ;
     }
+    
     .form-controll{
         padding: 10px 5px;
         padding-right: 0px;
