@@ -627,6 +627,9 @@ background-color: #ffffff;
         padding-right: 0px;
         font-size: x-small;
     }
+    .side-pannel{
+        width: 80%;
+}
     .up-down{
         width: 15%;
     }
