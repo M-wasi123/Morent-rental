@@ -15,6 +15,11 @@ body{
     --blue-color:#2A60B7;
     --daark-color:#4991ee;
 }
+.logo{
+    padding: 30px;
+    width: 100%;
+background-color: rgb(255, 255, 255);
+}
 .navbar-expand{
     width: 100%;
     padding: 20px 20px;
@@ -31,57 +36,48 @@ body{
     font-size: 30px !important;
     font-weight: 600 !important;
 }
-/* .search-bar{
-    display: inline-flex !important;
-    padding: 10px 20px;
-    align-items: center;
-width: 30%;
-height: 40px;
-background-color: white;
-border:1px solid #f0eeee;
-border-radius: 20px;
-margin-left: 50px 
-} */
 .navbar-collapse{
     justify-content: space-between;
     flex-grow: 0;
 }
 .bar{
     display: none;
+    
 }
-  #bar-icon{
+#bar-icon{
     font-size: x-large;
     color: var(--text-color);
 }
 
 .navbalinks {
-    width: 50%;
+    width: 80%;
     height: 100vh;
     float: right;
     display: none;
-    background-color: #f0eeee;
+    background-color: rgb(240, 240, 240);
     line-height: 30px;
     position: absolute;
     z-index: 1;
-    padding: 10px 20px;
+    border-radius: 10px;
   }
+
 #page-link {
     color: rgb(43, 42, 42);
     text-decoration: none;
     font-size: large;
     margin-left: 20px;
 }
- 
-.form-controll{
-    font-size: small;
-    width: 100%;
-    padding: 0px 20px;
-    border: none;
-    /* border-color: white; */
-    outline-style: none;
-    color: var(--text-color);
+.pages-detail{
+    padding: 20px 30px;
 }
-
+ .pages-link{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 20px 0px;
+ }
+ .pageslink{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 20px 15px;
+ }
 .fa-heat{
     color: black;
 }
@@ -618,6 +614,9 @@ gap: 3px;
 }
 
 @media only screen and (max-width:496px) {
+    .logo{
+        padding: 19px 20px;
+    }
     .navbar-expand{
         padding: 10px 20px;
     }

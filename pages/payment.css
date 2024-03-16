@@ -13,6 +13,7 @@ body{
     --blue-color:#2A60B7;
     --daark-color:#4991ee;
 }
+
 .main-container{
     background-color:var(--light-color);
     padding: 20px 20px;
