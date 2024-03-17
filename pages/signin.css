@@ -3,119 +3,130 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(to right bottom, #5596f8, #9c49c2);
+}
 .parrent-container{
+    width: 100%;
+    height: 97vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 160px 10px;
+    padding: 100px 70px;
 }
 .container{
-    width: 40%;
-    border-radius: 10px;
+    width: 100%;
+    display: flex;
 background-color:rgb(240, 238, 238);
+}
+.had1{
+    position: absolute;
+    margin-bottom: 50px;
+}
+.head1{
+    color: rgb(224, 216, 216);
+    font-size: 35px;
+    font-weight:800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pera1{
+    position: absolute;
+    color: rgb(241, 228, 228);
+    font-size:small;
+    font-weight: -100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .logo{
     width: 100%;
-    padding: 2px 60px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #logo-img{
     width: 100%;
     object-fit: contain;
 }
-#signin-form{
-    width: 100%;
-    line-height: 50px;
+.signin-form{
+    width: 80%;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+background-color: white;
 }
-.email-adress{
-width: 100%;
-padding: 1px 90px;
-display: flex;
-justify-content: space-between;
+#signin-form{
+    line-height: 60px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
-#email{
-width: 100%;
-border: none;
-padding: 5px 4px;
-border-radius: 5px;
-outline: none;
+.h6{
+    text-align: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#3769f5 ;
 }
-#password{
-width: 100%;
-border: none;
-padding: 5px 4px;
-border-radius: 5px;
-outline: none;
+.pera{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
-.botton{
+.email{
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding: 5px 80px;
+    background-color: rgba(235, 229, 229, 0.918);
+    padding: 7px 20px;
+    border-radius: 20px;
 }
-.signin-btn{
-padding: 5px 10px;
-border-radius: 5px;
-border: none;
-background-color: rgb(160, 187, 247);
-}
-.forgot-btn{
-    padding: 5px 10px;
-    border-radius: 5px;
+#input-email{
+    width: 100%;
     border: none;
-    background-color: rgb(160, 187, 247);
+    outline: none;
+    padding: 0px 10px;
+    background-color: rgba(235, 229, 229, 0.918);
 }
-@media only screen and (max-width:1099px) {
-    .container{
-        width: 50%;
-    }
+#inputPassword{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    background-color: rgba(235, 229, 229, 0.918);
 }
-@media only screen and (max-width:887px) {
-    .container{
-        width: 60%;
-    }
+.password{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(235, 229, 229, 0.918);
+    padding: 7px 20px;
+    border-radius: 20px;
 }
-@media only screen and (max-width:735px) {
-    .container{
-        width: 70%;
-    }
+.pasword{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-@media only screen and (max-width:631px) {
-    .container{
-        width: 80%;
-    }
+.checkBox{
+    display: flex;
+    align-items:center ;
+    gap: 7px;
 }
-@media only screen and (max-width:551px) {
-    .container{
-        width: 90%;
-    }
+#chek{
+    font-size:11px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-@media only screen and (max-width:491px) {
-    .email-adress{
-        padding: 1px 50px;
-        }
-        .botton{
-            padding: 5px 50px;
-        }
+#login-btn{
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to left bottom, #5596f8, #9c49c2);   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-weight: 500;
+    color: white;
+    text-align: center;
 }
-@media only screen and (max-width:403px) {
-    .email-adress{
-        padding: 1px 30px;
-        }
-        .botton{
-            padding: 5px 30px;
-        }
-}
-@media only screen and (max-width:360px) {
-    .email-adress{
-        padding: 1px 20px;
-        }
-        .botton{
-            padding: 5px 10px;
-        }
+#page{
+    font-size: medium;
+    color: #5596f8;
 }
