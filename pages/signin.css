@@ -146,12 +146,15 @@ justify-content: center;
     }
 }
 @media only screen and (max-width:755px) {
+    .container{
+        border-radius: 20px;
+    }
     .logo{
         display: none;
     }
     .signin-form{
         width: 100%;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 }
 @media only screen and (max-width:430px) {
