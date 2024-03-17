@@ -146,6 +146,9 @@ justify-content: center;
     }
 }
 @media only screen and (max-width:755px) {
+    .parrent-container{
+        padding: 140px 60px;
+    }
     .container{
         border-radius: 20px;
     }
@@ -159,7 +162,7 @@ justify-content: center;
 }
 @media only screen and (max-width:430px) {
     .parrent-container{
-        padding: 100px 40px;
+        padding: 160px 40px;
     }
     #signin-form{
         width: 100%;
