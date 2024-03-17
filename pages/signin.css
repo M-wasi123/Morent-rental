@@ -154,6 +154,9 @@ justify-content: center;
     }
 }
 @media only screen and (max-width:430px) {
+    .parrent-container{
+        padding: 100px 40px;
+    }
     #signin-form{
         width: 100%;
         padding: 1px 10px;
