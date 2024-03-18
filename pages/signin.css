@@ -8,7 +8,6 @@ body{
 }
 .parrent-container{
     width: 100%;
-    height: 97vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,9 +145,6 @@ justify-content: center;
     }
 }
 @media only screen and (max-width:755px) {
-    .parrent-container{
-        padding: 140px 60px;
-    }
     .container{
         border-radius: 20px;
     }
@@ -162,7 +158,7 @@ justify-content: center;
 }
 @media only screen and (max-width:430px) {
     .parrent-container{
-        padding: 160px 40px;
+        padding: 130px 40px;
     }
     #signin-form{
         width: 100%;
