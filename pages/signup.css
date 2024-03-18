@@ -3,3 +3,24 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(to right bottom, #5596f8, #9c49c2);
+}
+
+.parrent-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 70vh;
+    border: 1px solid ;
+}
