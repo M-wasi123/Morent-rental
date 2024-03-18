@@ -8,3 +8,11 @@ function togglerNavbar() {
       navbarLinks.style.display = "block";
     }
   }
+  function togglerNavbarClose() {
+    var navbarLinksClose = document.getElementById("navbarClose");
+    if(navbarLinks.style.display == "none"){
+      navbarLinks.style.display = "block" ;
+    }else{
+      navbarLinks.style.display = "none";
+    }
+  }

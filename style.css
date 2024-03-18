@@ -16,10 +16,20 @@ body{
     --blue-color:#2A60B7;
     --daark-color:#4991ee;
 }
+#navbarLinks{
+    width: 100%;
+background-color: #cdcfd3ea;
+}
+#navbarClose{
+    color: rgb(104, 103, 103);
+}
 .logo{
     padding: 30px;
     width: 100%;
 background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 .navbar-expand{
     width: 100%;
@@ -75,7 +85,7 @@ border-radius: 20px;
   }
 
 #page-link {
-    color: rgb(43, 42, 42);
+    color: rgb(2, 2, 2);
     text-decoration: none;
     font-size: large;
     margin-left: 20px;
