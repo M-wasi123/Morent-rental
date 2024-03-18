@@ -20,7 +20,78 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 60%;
+    width: 40%;
     height: 70vh;
-    border: 1px solid ;
+    padding: 20px 50px;
+    background-color: rgb(212, 207, 207);
+}
+.heading1{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid rgb(180, 177, 177);
+    padding: 10px 0px;
+    font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif;
+}
+.personDetail{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+padding: 10px;
+border-bottom: 2px solid rgb(180, 177, 177);
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 30px 50px;
+}
+.email-box{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.envelope{
+    padding: 10px;
+    background-color: rgb(42, 120, 223);
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+#email{
+    width: 100%;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+.password-box{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+    padding-right: 4px;
+}
+.lock{
+    padding: 7px 11.5px;
+    background-color: rgb(42, 120, 223);
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+#password{
+    width: 100%;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+#eye{
+    display: none;
+}
+#eyeSlash{
+    display: none;
 }

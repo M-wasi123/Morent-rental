@@ -11,8 +11,34 @@
 <body>
     <div class="parrent-container">
         <div class="container">
-<h1>Registration Form</h1>
+<h1 class="heading1">REGISTRATION</h1>
+<div class="personDetail">
+    <div class="perosnal">
+        <input type="radio" name="check" id="perso">
+        <label for="#perso">Personal</label>
+    </div>
+    <div class="company">
+        <input type="radio" name="check" id="comp">
+        <label for="#comp">Company</label>
+    </div>
+</div>
+<div class="signup-form">
+    <form action="">
+        <div class="email-box">
+            <span class="envelope"><i class="fa fa-envelope" style="font-size: large;color: white;"></i></span>
+            <input type="email" name="" id="email">
+        </div>
+        <div class="password-box">
+            <span class="lock"><i class="fa fa-lock" style="font-size: x-large;color: white;"></i></span>
+            <input type="password" id="password" maxlength="8">
+            <i onclick="TogglePasswordShow()" id="eye" class="fa fa-eye"></i>
+            <i onclick="TogglePasswordShow2()" id="eyeSlash" class="far fa-eye-slash"></i>
+        </div>
+        <p id="passwordStrength"></p>
+    </form>
+</div>
         </div>
     </div>
+    <script src="signup.js"></script>
 </body>
 </html>
