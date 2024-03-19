@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to left bottom, #5596f8, #9c49c2);
+    background: linear-gradient(to left bottom, #629bf0, #c069e9);
 }
 
 .parrent-container{
@@ -161,7 +161,7 @@ border-bottom: 2px solid rgb(196, 192, 192);
     padding: 130px 10px;
 }
 .container{
-    width: 50%;
+    width: 60%;
 }
 }
 @media only screen and (max-width:690px) {
@@ -171,22 +171,37 @@ border-bottom: 2px solid rgb(196, 192, 192);
     }
     .container{
         width: 70%;
+        padding: 20px 50px;
     }
     }
+    @media only screen and (max-width:610px) {
+    
+        .parrent-container{
+            padding: 130px 10px;
+        }
+        .container{
+            width: 80%;
+        }
+        .heading1{
+            font-size: x-large;}
+        }
+        @media only screen and (max-width:520px) {
+    
+            .parrent-container{
+                padding: 130px 10px;
+            }
+            .container{
+                width: 90%;
+            }
+
+        }
     @media only screen and (max-width:460px) {
     
         .parrent-container{
             padding: 130px 10px;
         }
         .container{
-            width: 90%;
-        }
-        .heading1{
             width: 100%;
-            font-size: x-large;
-            text-align: center;
-            border-bottom: 2px solid rgb(180, 177, 177);
-            padding: 10px 10px;
-            font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif;
+            padding: 20px 50px;
         }
         }
