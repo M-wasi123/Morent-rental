@@ -150,6 +150,11 @@ border-bottom: 2px solid rgb(196, 192, 192);
     font-weight: 700;
     border-radius: 10px;
 }
+.pera1{
+    padding: 20px 1px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 @media only screen and (max-width:887px) {
     
 .parrent-container{
