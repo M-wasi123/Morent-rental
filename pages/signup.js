@@ -32,7 +32,14 @@ switch (strength){
 }
 document.getElementById('passwordStrength').innerHTML = 'Password Strength: ' +  strengthText;
 });
-var 
+var inputPassword = document.getElementById('password').value;
+var eyePassword = 
+
+inputPassword.addEventListener('click', function() {
+    if (inputPassword.type === 'password') {
+        
+    }
+})
 
 function TogglePasswordShow(){
     var pasword = document.getElementById('password');
