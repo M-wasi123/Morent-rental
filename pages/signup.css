@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 130px 30px;
+    padding: 97px 30px;
 }
 .container{
     display: flex;
@@ -156,19 +156,11 @@ border-bottom: 2px solid rgb(196, 192, 192);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 @media only screen and (max-width:887px) {
-    
-.parrent-container{
-    padding: 110px 10px;
-}
 .container{
     width: 60%;
 }
 }
 @media only screen and (max-width:690px) {
-    
-    .parrent-container{
-        padding: 100px 10px;
-    }
     .container{
         width: 70%;
         padding: 20px 50px;
@@ -177,7 +169,7 @@ border-bottom: 2px solid rgb(196, 192, 192);
     @media only screen and (max-width:610px) {
     
         .parrent-container{
-            padding: 90px 10px;
+            padding: 80px 10px;
         }
         .container{
             width: 80%;
@@ -188,7 +180,7 @@ border-bottom: 2px solid rgb(196, 192, 192);
         @media only screen and (max-width:520px) {
     
             .parrent-container{
-                padding: 80px 10px;
+                padding: 70px 10px;
             }
             .container{
                 width: 90%;
