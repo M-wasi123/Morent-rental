@@ -32,15 +32,32 @@ switch (strength){
 }
 document.getElementById('passwordStrength').innerHTML = 'Password Strength: ' +  strengthText;
 });
-var inputPassword = document.getElementById('password').value;
-var eyePassword = 
+var inputPassword = document.getElementById('password');
+var eyePassword = document.getElementById('eye')
+var eyePasswordSlash = document.getElementById('eyeSlash')
 
 inputPassword.addEventListener('click', function() {
-    if (inputPassword.type === 'password') {
-        
+    if (inputPassword) {
+        eyePassword.style.display = 'block'
     }
 })
-
+inputPassword.addEventListener('click', function() {
+    if (inputPassword.type === 'text') {
+        eyePassword.style.display = 'none'
+    }
+})
+eyePassword.addEventListener('click', function () {
+    if (inputPassword.type === 'text') {
+        eyePassword.style.display = 'none'
+        eyePasswordSlash.style.display= 'block'
+    }
+})
+eyePasswordSlash.addEventListener('click', function () {
+    if (inputPassword.type === 'password') {
+        eyePassword.style.display = 'block'
+        eyePasswordSlash.style.display= 'none'
+    }
+})
 function TogglePasswordShow(){
     var pasword = document.getElementById('password');
     var passwordShow = document.getElementById('eye');

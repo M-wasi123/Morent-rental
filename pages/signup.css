@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to right bottom, #5596f8, #9c49c2);
+    background: linear-gradient(to left bottom, #5596f8, #9c49c2);
 }
 
 .parrent-container{
@@ -20,24 +20,17 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 40%;
-    height: 70vh;
+    width: 50%;
     padding: 20px 50px;
-    background-color: rgb(212, 207, 207);
+    background: linear-gradient(to right top, #aec8f0, #efdcf8);
+    border-radius: 10px;
 }
 .heading1{
     width: 100%;
     text-align: center;
     border-bottom: 2px solid rgb(180, 177, 177);
-    padding: 10px 0px;
+    padding: 10px 10px;
     font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif;
-}
-.personDetail{
-    width: 100%;
-    display: flex;
-    gap: 40px;
-padding: 10px;
-border-bottom: 2px solid rgb(180, 177, 177);
 }
 .signup-form{
     display: flex;
@@ -46,12 +39,22 @@ border-bottom: 2px solid rgb(180, 177, 177);
     align-items: center;
     text-align: center;
     width: 100%;
-    padding: 30px 50px;
+    border-bottom: 2px solid rgb(180, 177, 177);
 }
+.personDetail{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+padding: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-bottom: 2px solid rgb(180, 177, 177);
+}
+
 .email-box{
     display: flex;
     align-items: center;
     border-radius: 5px;
+    margin-top: 20px;
 }
 .envelope{
     padding: 10px;
@@ -60,6 +63,26 @@ border-bottom: 2px solid rgb(180, 177, 177);
     border-bottom-left-radius:5px ;
 }
 #email{
+    width: 100%;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+.user{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.user-name{
+    padding: 7px 10.5px;
+    background-color: rgb(42, 120, 223);
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+#user{
     width: 100%;
     border: none;
     padding: 12px 10px;
@@ -95,3 +118,71 @@ border-bottom: 2px solid rgb(180, 177, 177);
 #eyeSlash{
     display: none;
 }
+#passwordStrength{
+    margin-top: 10px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.male-femal{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid rgb(180, 177, 177);
+    border-top: 2px solid rgb(180, 177, 177);
+    padding: 10px 2px;
+}
+.pera{
+    padding: 10px 1px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#submit{
+    margin-top: 20px;
+    padding: 10px ;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(42, 120, 223);
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 10px;
+}
+@media only screen and (max-width:887px) {
+    
+.parrent-container{
+    padding: 130px 10px;
+}
+.container{
+    width: 50%;
+}
+}
+@media only screen and (max-width:690px) {
+    
+    .parrent-container{
+        padding: 130px 10px;
+    }
+    .container{
+        width: 70%;
+    }
+    }
+    @media only screen and (max-width:460px) {
+    
+        .parrent-container{
+            padding: 130px 10px;
+        }
+        .container{
+            width: 90%;
+        }
+        .heading1{
+            width: 100%;
+            font-size: x-large;
+            text-align: center;
+            border-bottom: 2px solid rgb(180, 177, 177);
+            padding: 10px 10px;
+            font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif;
+        }
+        }
