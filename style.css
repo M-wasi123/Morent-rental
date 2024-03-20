@@ -73,7 +73,7 @@ border-radius: 20px;
     height: 100vh;
     float: right;
     display: none;
-    background-color: #cdcfd3ea;
+    background-color: #e6e7e7ea;
     line-height: 30px;
     position: absolute;
     z-index: 1;
@@ -89,7 +89,7 @@ border-radius: 20px;
 .pages-detail{
     width: 70%;
     height: 88.3vh;
-    background-color: #bcbcbd;
+    background-color: white;
     padding: 20px 30px;
 }
  .pages-link{

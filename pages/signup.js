@@ -38,36 +38,34 @@ var eyePasswordSlash = document.getElementById('eyeSlash')
 
 inputPassword.addEventListener('click', function() {
     if (inputPassword) {
-        eyePassword.style.display = 'block'
+        eyePasswordSlash.style.display = 'block'
     }
 })
 inputPassword.addEventListener('click', function() {
     if (inputPassword.type === 'text') {
-        eyePassword.style.display = 'none'
-    }
-})
-eyePassword.addEventListener('click', function () {
-    if (inputPassword.type === 'text') {
-        eyePassword.style.display = 'none'
-        eyePasswordSlash.style.display= 'block'
+        eyePassword.style.display = 'block'
     }
 })
 eyePasswordSlash.addEventListener('click', function () {
-    if (inputPassword.type === 'password') {
+    if (inputPassword.type === 'text') {
         eyePassword.style.display = 'block'
         eyePasswordSlash.style.display= 'none'
     }
 })
+eyePassword.addEventListener('click', function () {
+    if (inputPassword.type === 'password') {
+        eyePassword.style.display = 'none'
+        eyePasswordSlash.style.display= 'block'
+    }
+})
+
 function TogglePasswordShow(){
     var pasword = document.getElementById('password');
     var passwordShow = document.getElementById('eye');
 
-    if(pasword.type === 'password'){
-pasword.type = "hide";
+    if(pasword.type === 'text'){
+pasword.type = "password";
 passwordShow.type = 'show'
-    }else{
-        pasword.type = 'show'
-        passwordShow.type = 'hide'
     }
 }
 function TogglePasswordShow2(){
@@ -75,11 +73,8 @@ function TogglePasswordShow2(){
     var passwordShow = document.getElementById('eyeSlash');
 
     if(pasword.type === 'password'){
-pasword.type = "password";
+pasword.type = "text";
 passwordShow.type = 'hide'
-    }else{
-        pasword.type = 'password'
-        passwordShow.type = 'show'
     }
 }
 

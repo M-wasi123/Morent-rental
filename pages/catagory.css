@@ -13,10 +13,16 @@ body{
     --blue-color:#2A60B7;
     --daark-color:#4991ee;
 }
+#navbarClose{
+    color: rgb(104, 103, 103);
+}
 .logo{
     padding: 30px;
     width: 100%;
 background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 .navbar-expand{
     width: 100%;
@@ -59,11 +65,11 @@ border-radius: 20px;
 }
 
 .navbalinks {
-    width: 80%;
-    height:100vh;
+    width: 100%;
+    height: 100vh;
     float: right;
     display: none;
-    background-color: rgb(240, 240, 240);
+    background-color: #e6e7e7ea;
     line-height: 30px;
     position: absolute;
     z-index: 1;
@@ -71,12 +77,15 @@ border-radius: 20px;
   }
 
 #page-link {
-    color: rgb(43, 42, 42);
+    color: rgb(2, 2, 2);
     text-decoration: none;
     font-size: large;
     margin-left: 20px;
 }
 .pages-detail{
+    width: 70%;
+    height: 88.3vh;
+    background-color: white;
     padding: 20px 30px;
 }
  .pages-link{

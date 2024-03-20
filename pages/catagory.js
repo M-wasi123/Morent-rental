@@ -6,6 +6,14 @@ function togglerNavbar() {
       navbarLinks.style.display = "block";
     }
   }
+  function togglerNavbarClose() {
+    var navbarLinksClose = document.getElementById("navbarClose");
+    if(navbarLinks.style.display == "none"){
+      navbarLinks.style.display = "block" ;
+    }else{
+      navbarLinks.style.display = "none";
+    }
+  }
   document.getElementById('filter').addEventListener('click', function (){
     var sidepanel = document.getElementById('side-panel');
     if(sidepanel.style.display === "block"){
