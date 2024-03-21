@@ -14,3 +14,15 @@ function togglerNavbar() {
       navbarLinks.style.display = "none";
     }
   }
+  const scrollTOTop = document.getElementById('topBtn')
+
+window.onscroll = function () {
+  scrollfunction();
+}
+function scrollfunction() {
+  if (document.documentElement.scrollTop > 10) {
+    scrollTOTop.style.display = 'block'
+  }else{
+    scrollTOTop.style.display = 'none'
+  }
+}
