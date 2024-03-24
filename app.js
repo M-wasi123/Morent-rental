@@ -16,21 +16,10 @@ function togglerNavbar() {
       navbarLinks.style.display = "none";
     }
   }
-const scrollTOTop = document.getElementById('topBtn')
 
-window.onscroll = function () {
-  scrollfunction();
-}
-function scrollfunction() {
-  if (document.documentElement.scrollTop > 10) {
-    scrollTOTop.style.display = 'block'
-  }else{
-    scrollTOTop.style.display = 'none'
-  }
-}
-
-const scrollSignIn = document.getElementById('signinshow')
+const SignIn = document.getElementById('signinshow')
 const body = document.querySelector('#parrentbody')
+const shadow = document.querySelector('#shadow')
 
 window.onscroll = function () {
   scrollfunction();
@@ -38,22 +27,22 @@ window.onscroll = function () {
 function scrollfunction() {
   if (document.documentElement) {
     body.style.position = 'fixed'
-    scrollSignIn.style.display = 'block'
+   SignIn.style.display = 'block'
   
   }else{
-    scrollSignIn.style.display = 'none'
+    SignIn.style.display = 'none'
   }
 }
 
 var signInClose = document.getElementById('closeIcon');
 
 signInClose.addEventListener('click', function () {
-  if ( scrollSignIn.style.display === 'block') {
+  if ( SignIn.style.display === 'block') {
     body.style.position = 'absolute'
-    scrollSignIn.style.display = 'none'
+    SignIn.style.display = 'none'
   
   }else{
-    
+    SignIn.style.display = 'none'
   }
 window.onscroll = function () {
   scrollfunction();
@@ -62,6 +51,18 @@ function scrollfunction() {
 }
 });
 
+const scrollTOTop = document.getElementById('topBtn')
+
+window.onscrollend = function () {
+  scrollfunction2();
+}
+function scrollfunction2() {
+  if (document.documentElement.scrollTop > 10) {
+    scrollTOTop.style.display = 'block'
+  }else{
+    scrollTOTop.style.display = 'none'
+  }
+}
 
 
 

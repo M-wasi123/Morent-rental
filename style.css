@@ -23,7 +23,7 @@ body{
     margin: 25%;
     margin-top: 150px;
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     background-color:white;
     border-radius: 10px;
     box-shadow: 2px 5px 3px 0px rgb(224, 223, 223);
@@ -669,7 +669,9 @@ gap: 3px;
 }
 }
 @media only screen and (max-width:670px) {
-    
+    .signinshow{
+        width: 60%;
+    }
     .form-controll{
         width: 100%;
         font-size: x-small;
@@ -730,6 +732,11 @@ gap: 3px;
 }
 }
 @media only screen and (max-width:580px) {
+    .signinshow{
+        width: 70%;
+        margin: 15%;
+        margin-top: 130px;
+    }
      .navbar-expand{
         padding:0px 40px;
     }
@@ -776,6 +783,11 @@ gap: 3px;
     body{
         /* overflow-x: visible; */
         object-fit: cover;
+    }
+    .signinshow{
+        width: 85%;
+        margin: 10%;
+        margin-top: 130px;
     }
     .navbar-expand{
         width: 100%;
