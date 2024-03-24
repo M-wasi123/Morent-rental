@@ -10,7 +10,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  <div id="signinshow" class="signinshow">
+    <i id="closeIcon" class="fa fa-close" style="float: right;font-size: large;" ></i>
+ <div class="signinoption">
+  <i class="fa-regular fa-user-circle" style="font-size: 100px;color: #727272;"></i>
+<h6 class="signinHeading">Sign In and enjoy Morent Full Featured</h6>
+<a id="signinancher" href="./pages/signin.html">Sign In</a>
+<p>Already have an account: <a href="./pages/signup.html">Sign Up</a></p>
+ </div>
+</div>
   <p id="top"></p>
+  <div id="parrentbody">
   <div class="navbalinks" id="navbarLinks">
     
     <div class="logo">
@@ -47,9 +57,9 @@
   
     <i class="fa fa-search" style="color: rgba(43, 42, 42, 0.356);font-size: x-large;"></i>
     
-            <input class="form-controll" type="search" placeholder="Search Something Here ..." aria-label="Search">
+            <input id="inputSearch" class="form-controll" type="search" placeholder="Search Something Here ..." aria-label="Search">
             <div class="sliders">
-            <i class="fa fa-sliders"  style="color: rgba(46, 45, 45, 0.356);font-size: x-large; "></i>
+            <i id="searchBtn" class="fa fa-sliders"  style="color: rgba(46, 45, 45, 0.356);font-size: x-large; "></i>
           </div>
         </div>
        
@@ -83,7 +93,7 @@
         </div>
         </div>
       </nav>
-
+      <p id="Konigegg"></p>
       <div class="parrent-container"> 
       <!-- this section is main car images card -->    
         <div class="main-container"> 
@@ -177,7 +187,7 @@
 </div>
 <!-- this section is car cards -->
 <div class="cards-page">
-<div class="car-cards">
+<div id="Koenigsegg" class="car-cards">
   <div class="card" >
     <div class="flex">
     <h5 class="h-1-1">Koenigsegg </h5>
@@ -200,7 +210,7 @@
     </div>
   </div>
 </div>
-<div class="car-cards">
+<div id="NissanGTR" class="car-cards">
   <div class="card" >
     <div class="flex">
     <h5 class="h-1-1">Nissan GT-R </h5>
@@ -227,7 +237,7 @@
     </div>
   </div>
 </div>
-<div class="car-cards">
+<div id="RollsRoyce" class="car-cards">
   <div class="card" >
     <div class="flex">
     <h5 class="h-1-1">Rolls-Royce</h5><i class="fa fa-heart" style="color: rgb(214, 27, 27);"></i>
@@ -528,7 +538,9 @@
 </footer>
 
 <a href="#top" id="topBtn"> <i class=" fas fa-angle-double-up "></i> </a> 
+</div>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
        <script src="app.js"></script>
+       <script src="./pages/search.js"></script>
       </body>
 </html>

@@ -28,3 +28,49 @@ function scrollfunction() {
     scrollTOTop.style.display = 'none'
   }
 }
+
+const scrollSignIn = document.getElementById('signinshow')
+const body = document.querySelector('#parrentbody')
+
+window.onscroll = function () {
+  scrollfunction();
+}
+function scrollfunction() {
+  if (document.documentElement) {
+    body.style.position = 'fixed'
+    scrollSignIn.style.display = 'block'
+  
+  }else{
+    scrollSignIn.style.display = 'none'
+  }
+}
+
+var signInClose = document.getElementById('closeIcon');
+
+signInClose.addEventListener('click', function () {
+  if ( scrollSignIn.style.display === 'block') {
+    body.style.position = 'absolute'
+    scrollSignIn.style.display = 'none'
+  
+  }else{
+    
+  }
+window.onscroll = function () {
+  scrollfunction();
+}
+function scrollfunction() {
+}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -16,6 +16,45 @@ body{
     --blue-color:#2A60B7;
     --daark-color:#4991ee;
 }
+.signinshow{
+    display: none;
+    width: 50%;
+    padding: 20px 10px;
+    margin: 25%;
+    margin-top: 150px;
+    position: fixed;
+    z-index: 1;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px 0px rgb(224, 223, 223);
+}
+.signinoption{
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    background-color: white;
+}
+.signinoption a{
+    text-decoration: none;
+    color: #000000;
+}
+.signinoption a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+#signinancher{
+    padding: 10px 90px;
+    background-color: #a9aaac;
+    border-radius: 20px;
+}
+#konigegg{
+position: absolute;
+}
 #navbarClose{
     color: rgb(104, 103, 103);
 }
@@ -34,7 +73,7 @@ align-items: center;
     align-items: center !important;
 }
 .fluid{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
 }
