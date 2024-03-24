@@ -137,24 +137,34 @@ border-bottom: 2px solid rgb(196, 192, 192);
     padding: 10px 1px;
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 #submit{
-    margin-top: 20px;
-    padding: 10px ;
+    margin-top: 0px;
+    padding: 5px 30px;
     width: 100%;
     border: none;
     outline: none;
     background-color: rgb(42, 120, 223);
     color: white;
     font-size: medium;
-    font-weight: 700;
-    border-radius: 10px;
+    font-weight: 300;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .pera1{
     padding: 20px 1px;
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#signp{
+    font-size: 15px;
+    text-decoration: none;
+}
+
 @media only screen and (max-width:887px) {
 .container{
     width: 60%;

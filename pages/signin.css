@@ -129,11 +129,25 @@ justify-content: center;
     color: white;
     text-align: center;
 }
+#login-btn a{
+    text-decoration: none;
+    color: white;
+}
+#login-btn a:hover{
+    text-decoration: underline;
+    color: rgb(21, 4, 255);
+    font-size: 14px;
+}
 #page{
     font-size: medium;
     color: #5596f8;
 }
-@media only screen and (max-width:895px) {
+@media only screen and (max-width:1035px){
+    .parrent-container{
+        padding: 140px 70px;
+    }
+}
+@media only screen and (max-width:915px) {
     .parrent-container{
         padding: 120px 60px;
     }
