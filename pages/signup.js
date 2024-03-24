@@ -77,5 +77,11 @@ pasword.type = "text";
 passwordShow.type = 'hide'
     }
 }
+var form = document.querySelector('form');
+var submit = document.querySelector('#submit')
 
-
+submit.addEventListener('click', function () {
+    if (form => submit) {
+        alert('Your account has been created \n'+ 'Please login by sign in')
+    }
+})

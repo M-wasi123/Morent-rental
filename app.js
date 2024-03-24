@@ -39,6 +39,7 @@ var signInClose = document.getElementById('closeIcon');
 signInClose.addEventListener('click', function () {
   if ( SignIn.style.display === 'block') {
     body.style.position = 'absolute'
+    body.style.width = '100%'
     SignIn.style.display = 'none'
   
   }else{
