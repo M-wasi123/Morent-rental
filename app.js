@@ -20,6 +20,8 @@ function togglerNavbar() {
 const SignIn = document.getElementById('signinshow')
 const body = document.querySelector('#parrentbody')
 const shadow = document.querySelector('#shadow')
+const bodyContent = document.querySelector('#parrentbody')
+
 
 window.onscroll = function () {
   scrollfunction();
@@ -28,7 +30,8 @@ function scrollfunction() {
   if (document.documentElement) {
     body.style.position = 'fixed'
    SignIn.style.display = 'block'
-  
+  bodyContent.style.display = 'none'
+
   }else{
     SignIn.style.display = 'none'
   }
@@ -41,6 +44,7 @@ signInClose.addEventListener('click', function () {
     body.style.position = 'absolute'
     body.style.width = '100%'
     SignIn.style.display = 'none'
+    bodyContent.style.display = 'block'
   
   }else{
     SignIn.style.display = 'none'

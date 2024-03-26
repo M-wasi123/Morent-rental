@@ -78,6 +78,7 @@ justify-content: center;
 .email{
     width: 100%;
     display: flex;
+    align-items: center;
     background-color: rgba(235, 229, 229, 0.918);
     padding: 7px 20px;
     border-radius: 20px;
