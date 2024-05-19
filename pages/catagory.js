@@ -18,10 +18,18 @@ function togglerNavbar() {
     var sidepanel = document.getElementById('side-panel');
     if(sidepanel.style.display === "block"){
 sidepanel.style.display = "none";
+document.getElementById('close2').style.display = 'none'
     }else{
       sidepanel.style.display = "block";
+document.getElementById('close2').style.display = 'block'
+document.getElementById('close2').style.textAlign = 'right'
     }
   })
+document.getElementById('close2').addEventListener('click', function () {
+  var sidepanel = document.getElementById('side-panel');
+  sidepanel.style.display = 'none'
+})
+
   const scrollTOTop = document.getElementById('topBtn')
 
 window.onscroll = function () {

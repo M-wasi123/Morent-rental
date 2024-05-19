@@ -166,15 +166,16 @@ border-radius: 20px;
     display: flex;
 }
 #filter{
-    width: 10%;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     text-align: center;
     display: none;
     margin-top: 10px;
     font-size: x-large;
     color: var(--text-color);
+    line-height: 40px;
 background-color: white;
-    padding: 20px 0px;
     box-shadow: 1px 1px 1px 2px rgb(226, 223, 223)
 }
 .side-pannel{
@@ -674,9 +675,6 @@ background-color: #ffffff;
         padding-right: 0px;
         font-size: x-small;
     }
-    #filter{
-        width: 15%;
-    }
     .side-pannel{
         width: 80%;
 }
@@ -694,9 +692,4 @@ background-color: #ffffff;
         flex-wrap: wrap;
         row-gap: 20px;
     }
-}
-@media only screen and (max-width:324px){
-#filter{
-    width: 20%;
-}
 }
