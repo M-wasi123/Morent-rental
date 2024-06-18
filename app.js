@@ -39,7 +39,7 @@ function scrollfunction() {
 
 var signInClose = document.getElementById('closeIcon');
 
-signInClose.addEventListener('click', function () {
+signInClose.addEventListener('click',() => {
   if ( SignIn.style.display === 'block') {
     body.style.position = 'absolute'
     body.style.width = '100%'
@@ -55,6 +55,11 @@ window.onscroll = function () {
 function scrollfunction() {
 }
 });
+if (localStorage.getItem('email')) {
+  function scrollfunction() {
+  }
+}
+
 
 const scrollTOTop = document.getElementById('topBtn')
 
@@ -68,13 +73,7 @@ function scrollfunction2() {
     scrollTOTop.style.display = 'none'
   }
 }
-
-
-
-
-
-
-
+console.log('sign.js')
 
 
 
