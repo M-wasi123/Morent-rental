@@ -1,3 +1,8 @@
+let email = document.getElementById('email')
+let pasword = document.getElementById('password');
+let passwordShow = document.getElementById('eye');
+let passwordShow2 = document.getElementById('eyeSlash');
+
 document.getElementById('password').addEventListener('input', function() {
     var password = this.value;
     var strength = 0;
@@ -32,48 +37,42 @@ switch (strength){
 }
 document.getElementById('passwordStrength').innerHTML = 'Password Strength: ' +  strengthText;
 });
-var inputPassword = document.getElementById('password');
-var eyePassword = document.getElementById('eye')
-var eyePasswordSlash = document.getElementById('eyeSlash')
 
-inputPassword.addEventListener('click', function() {
-    if (inputPassword) {
-        eyePasswordSlash.style.display = 'block'
+pasword.addEventListener('click',()=>{
+           if (pasword.value.length == 0) {
+            if ( passwordShow2.style.display = 'block') {
+                 passwordShow.style.display = 'none'
+                 pasword.type = 'password'
+            }
+           }
+    
+})
+passwordShow2.addEventListener('click', function () {
+    if (pasword.type === 'text') {
+        passwordShow.style.display = 'block'
+        passwordShow2.style.display= 'none'
     }
 })
-inputPassword.addEventListener('click', function() {
-    if (inputPassword.type === 'text') {
-        eyePassword.style.display = 'block'
-    }
-})
-eyePasswordSlash.addEventListener('click', function () {
-    if (inputPassword.type === 'text') {
-        eyePassword.style.display = 'block'
-        eyePasswordSlash.style.display= 'none'
-    }
-})
-eyePassword.addEventListener('click', function () {
-    if (inputPassword.type === 'password') {
-        eyePassword.style.display = 'none'
-        eyePasswordSlash.style.display= 'block'
+passwordShow.addEventListener('click', function () {
+    if (pasword.type === 'password') {
+        passwordShow.style.display = 'none'
+        passwordShow2.style.display= 'block'
     }
 })
 
 function TogglePasswordShow(){
-    var pasword = document.getElementById('password');
-    var passwordShow = document.getElementById('eye');
 
     if(pasword.type === 'text'){
 pasword.type = "password";
 passwordShow.type = 'show'
+passwordShow2.type = 'hide'
     }
 }
 function TogglePasswordShow2(){
-    var pasword = document.getElementById('password');
-    var passwordShow = document.getElementById('eyeSlash');
 
     if(pasword.type === 'password'){
 pasword.type = "text";
+passwordShow2.type = 'show'
 passwordShow.type = 'hide'
     }
 }
@@ -82,7 +81,8 @@ var submit = document.querySelector('#submit')
 
 submit.addEventListener('click', function () {
             localStorage.setItem('email',email.value)
-            localStorage.setItem('password',inputPassword.value)
+            if (strengthText == 'strong') {
+                localStorage.setItem('password',inputPassword.value)
+            }
 })
 
-let email = document.getElementById('email')

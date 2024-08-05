@@ -1,3 +1,8 @@
+const SignIn = document.getElementById('signinshow')
+const body = document.querySelector('#parrentbody')
+const shadow = document.querySelector('#shadow')
+const bodyContent = document.querySelector('#parrentbody')
+
 function togglerNavbar() {
 
     var navbarLinks = document.getElementById("navbarLinks");
@@ -17,10 +22,6 @@ function togglerNavbar() {
     }
   }
 
-const SignIn = document.getElementById('signinshow')
-const body = document.querySelector('#parrentbody')
-const shadow = document.querySelector('#shadow')
-const bodyContent = document.querySelector('#parrentbody')
 
 
 window.onscroll = function () {
@@ -28,9 +29,8 @@ window.onscroll = function () {
 }
 function scrollfunction() {
   if (document.documentElement) {
-    body.style.position = 'fixed'
    SignIn.style.display = 'block'
-  bodyContent.style.display = 'none'
+  bodyContent.classList.add("fixed")
 
   }else{
     SignIn.style.display = 'none'
@@ -41,10 +41,8 @@ var signInClose = document.getElementById('closeIcon');
 
 signInClose.addEventListener('click',() => {
   if ( SignIn.style.display === 'block') {
-    body.style.position = 'absolute'
-    body.style.width = '100%'
     SignIn.style.display = 'none'
-    bodyContent.style.display = 'block'
+    bodyContent.classList.remove('fixed')
   
   }else{
     SignIn.style.display = 'none'

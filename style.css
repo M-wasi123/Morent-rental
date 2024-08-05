@@ -16,6 +16,13 @@ body{
     --blue-color:#2A60B7;
     --daark-color:#4991ee;
 }
+::-webkit-scrollbar{
+    display: none;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+}
 .signinshow{
     display: none;
     width: 50%;
